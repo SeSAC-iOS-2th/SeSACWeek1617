@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		127CFA3C28FF9063000463D9 /* DiffableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127CFA3B28FF9063000463D9 /* DiffableCollectionViewController.swift */; };
 		128CAF5428FE2D9600B69F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF5328FE2D9600B69F3A /* AppDelegate.swift */; };
 		128CAF5628FE2D9600B69F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF5528FE2D9600B69F3A /* SceneDelegate.swift */; };
 		128CAF5828FE2D9600B69F3A /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF5728FE2D9600B69F3A /* SimpleTableViewController.swift */; };
@@ -14,9 +15,20 @@
 		128CAF5D28FE2D9700B69F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128CAF5C28FE2D9700B69F3A /* Assets.xcassets */; };
 		128CAF6028FE2D9700B69F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128CAF5E28FE2D9700B69F3A /* LaunchScreen.storyboard */; };
 		128CAF6A28FE3E7200B69F3A /* SimpleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF6928FE3E7200B69F3A /* SimpleCollectionViewController.swift */; };
+		12F7E7822900CF86007383F1 /* CObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E7812900CF86007383F1 /* CObservable.swift */; };
+		12F7E7842900D132007383F1 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E7832900D132007383F1 /* NewsViewController.swift */; };
+		12F7E7862900D243007383F1 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E7852900D243007383F1 /* NewsViewModel.swift */; };
+		12F7E7882900D77C007383F1 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E7872900D77C007383F1 /* News.swift */; };
+		12F7E78A2900ED68007383F1 /* DiffableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E7892900ED68007383F1 /* DiffableViewModel.swift */; };
+		12F7E78C2900EDEE007383F1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E78B2900EDEE007383F1 /* APIService.swift */; };
+		12F7E78E2900EE57007383F1 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E78D2900EE57007383F1 /* APIKey.swift */; };
+		12F7E7902900EF74007383F1 /* SearchPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7E78F2900EF74007383F1 /* SearchPhoto.swift */; };
+		12F7E7932900F115007383F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 12F7E7922900F115007383F1 /* Alamofire */; };
+		12F7E7962900F125007383F1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 12F7E7952900F125007383F1 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		127CFA3B28FF9063000463D9 /* DiffableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableCollectionViewController.swift; sourceTree = "<group>"; };
 		128CAF5028FE2D9600B69F3A /* SeSACWeek1617.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek1617.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128CAF5328FE2D9600B69F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128CAF5528FE2D9600B69F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,14 @@
 		128CAF5F28FE2D9700B69F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128CAF6128FE2D9700B69F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128CAF6928FE3E7200B69F3A /* SimpleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewController.swift; sourceTree = "<group>"; };
+		12F7E7812900CF86007383F1 /* CObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CObservable.swift; sourceTree = "<group>"; };
+		12F7E7832900D132007383F1 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		12F7E7852900D243007383F1 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		12F7E7872900D77C007383F1 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		12F7E7892900ED68007383F1 /* DiffableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableViewModel.swift; sourceTree = "<group>"; };
+		12F7E78B2900EDEE007383F1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		12F7E78D2900EE57007383F1 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		12F7E78F2900EF74007383F1 /* SearchPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F7E7962900F125007383F1 /* Kingfisher in Frameworks */,
+				12F7E7932900F115007383F1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +80,33 @@
 		128CAF5228FE2D9600B69F3A /* SeSACWeek1617 */ = {
 			isa = PBXGroup;
 			children = (
+				12F7E7802900CCBD007383F1 /* MVVMSample */,
 				128CAF5328FE2D9600B69F3A /* AppDelegate.swift */,
 				128CAF5528FE2D9600B69F3A /* SceneDelegate.swift */,
 				128CAF5728FE2D9600B69F3A /* SimpleTableViewController.swift */,
 				128CAF6928FE3E7200B69F3A /* SimpleCollectionViewController.swift */,
 				128CAF5928FE2D9600B69F3A /* Main.storyboard */,
+				127CFA3B28FF9063000463D9 /* DiffableCollectionViewController.swift */,
+				12F7E7892900ED68007383F1 /* DiffableViewModel.swift */,
 				128CAF5C28FE2D9700B69F3A /* Assets.xcassets */,
 				128CAF5E28FE2D9700B69F3A /* LaunchScreen.storyboard */,
 				128CAF6128FE2D9700B69F3A /* Info.plist */,
+				12F7E78B2900EDEE007383F1 /* APIService.swift */,
+				12F7E78D2900EE57007383F1 /* APIKey.swift */,
+				12F7E78F2900EF74007383F1 /* SearchPhoto.swift */,
 			);
 			path = SeSACWeek1617;
+			sourceTree = "<group>";
+		};
+		12F7E7802900CCBD007383F1 /* MVVMSample */ = {
+			isa = PBXGroup;
+			children = (
+				12F7E7812900CF86007383F1 /* CObservable.swift */,
+				12F7E7832900D132007383F1 /* NewsViewController.swift */,
+				12F7E7852900D243007383F1 /* NewsViewModel.swift */,
+				12F7E7872900D77C007383F1 /* News.swift */,
+			);
+			path = MVVMSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +125,10 @@
 			dependencies = (
 			);
 			name = SeSACWeek1617;
+			packageProductDependencies = (
+				12F7E7922900F115007383F1 /* Alamofire */,
+				12F7E7952900F125007383F1 /* Kingfisher */,
+			);
 			productName = SeSACWeek1617;
 			productReference = 128CAF5028FE2D9600B69F3A /* SeSACWeek1617.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +157,10 @@
 				Base,
 			);
 			mainGroup = 128CAF4728FE2D9600B69F3A;
+			packageReferences = (
+				12F7E7912900F115007383F1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				12F7E7942900F125007383F1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 128CAF5128FE2D9600B69F3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F7E7822900CF86007383F1 /* CObservable.swift in Sources */,
 				128CAF6A28FE3E7200B69F3A /* SimpleCollectionViewController.swift in Sources */,
 				128CAF5828FE2D9600B69F3A /* SimpleTableViewController.swift in Sources */,
+				12F7E7882900D77C007383F1 /* News.swift in Sources */,
+				12F7E78C2900EDEE007383F1 /* APIService.swift in Sources */,
 				128CAF5428FE2D9600B69F3A /* AppDelegate.swift in Sources */,
+				12F7E7842900D132007383F1 /* NewsViewController.swift in Sources */,
+				127CFA3C28FF9063000463D9 /* DiffableCollectionViewController.swift in Sources */,
+				12F7E7902900EF74007383F1 /* SearchPhoto.swift in Sources */,
 				128CAF5628FE2D9600B69F3A /* SceneDelegate.swift in Sources */,
+				12F7E7862900D243007383F1 /* NewsViewModel.swift in Sources */,
+				12F7E78E2900EE57007383F1 /* APIKey.swift in Sources */,
+				12F7E78A2900ED68007383F1 /* DiffableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +418,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12F7E7912900F115007383F1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		12F7E7942900F125007383F1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12F7E7922900F115007383F1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12F7E7912900F115007383F1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		12F7E7952900F125007383F1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12F7E7942900F125007383F1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 128CAF4828FE2D9600B69F3A /* Project object */;
 }
