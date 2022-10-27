@@ -11,6 +11,8 @@
 		1283655B2906238F00E2FF78 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1283655A2906238F00E2FF78 /* RxCocoa */; };
 		1283655D2906238F00E2FF78 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1283655C2906238F00E2FF78 /* RxSwift */; };
 		12836562290625DC00E2FF78 /* RxCocoaExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12836561290625DC00E2FF78 /* RxCocoaExampleViewController.swift */; };
+		12853E7E290A07BA00AB91B7 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12853E7D290A07BA00AB91B7 /* ValidationViewController.swift */; };
+		12853E80290A228D00AB91B7 /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12853E7F290A228D00AB91B7 /* ValidationViewModel.swift */; };
 		128CAF5428FE2D9600B69F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF5328FE2D9600B69F3A /* AppDelegate.swift */; };
 		128CAF5628FE2D9600B69F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF5528FE2D9600B69F3A /* SceneDelegate.swift */; };
 		128CAF5828FE2D9600B69F3A /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CAF5728FE2D9600B69F3A /* SimpleTableViewController.swift */; };
@@ -35,6 +37,8 @@
 /* Begin PBXFileReference section */
 		127CFA3B28FF9063000463D9 /* DiffableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableCollectionViewController.swift; sourceTree = "<group>"; };
 		12836561290625DC00E2FF78 /* RxCocoaExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaExampleViewController.swift; sourceTree = "<group>"; };
+		12853E7D290A07BA00AB91B7 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		12853E7F290A228D00AB91B7 /* ValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
 		128CAF5028FE2D9600B69F3A /* SeSACWeek1617.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek1617.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128CAF5328FE2D9600B69F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		128CAF5528FE2D9600B69F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				12836561290625DC00E2FF78 /* RxCocoaExampleViewController.swift */,
 				129FB71329077A3300C62EF9 /* SubjectViewController.swift */,
 				129FB7152907889A00C62EF9 /* SubjectViewModel.swift */,
+				12853E7D290A07BA00AB91B7 /* ValidationViewController.swift */,
+				12853E7F290A228D00AB91B7 /* ValidationViewModel.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -220,12 +226,14 @@
 				128CAF5428FE2D9600B69F3A /* AppDelegate.swift in Sources */,
 				12F7E7842900D132007383F1 /* NewsViewController.swift in Sources */,
 				129FB71429077A3300C62EF9 /* SubjectViewController.swift in Sources */,
+				12853E7E290A07BA00AB91B7 /* ValidationViewController.swift in Sources */,
 				127CFA3C28FF9063000463D9 /* DiffableCollectionViewController.swift in Sources */,
 				12F7E7902900EF74007383F1 /* SearchPhoto.swift in Sources */,
 				128CAF5628FE2D9600B69F3A /* SceneDelegate.swift in Sources */,
 				12F7E7862900D243007383F1 /* NewsViewModel.swift in Sources */,
 				12F7E78E2900EE57007383F1 /* APIKey.swift in Sources */,
 				129FB7162907889A00C62EF9 /* SubjectViewModel.swift in Sources */,
+				12853E80290A228D00AB91B7 /* ValidationViewModel.swift in Sources */,
 				12F7E78A2900ED68007383F1 /* DiffableViewModel.swift in Sources */,
 				12836562290625DC00E2FF78 /* RxCocoaExampleViewController.swift in Sources */,
 			);

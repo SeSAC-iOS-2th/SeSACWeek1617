@@ -24,40 +24,57 @@ class NewsViewController: UIViewController {
         configureHierachy()
         configureDataSource()
         bindData()
-        configureViews()
+        //configureViews()
     }
     
     func bindData() {
-        viewModel.pageNumber.bind { value in
-            self.numberTextField.text = value
-        }
+//        viewModel.pageNumber.bind { value in
+//            self.numberTextField.text = value
+//        }
+//
+//        viewModel.sample.bind { item in
+//            var snapshot = NSDiffableDataSourceSnapshot<Int, News.NewsItem>()
+//            snapshot.appendSections([0])
+//            snapshot.appendItems(item)
+//            self.dataSource?.apply(snapshot, animatingDifferences: false)
+//        }
         
-        viewModel.sample.bind { item in
-            var snapshot = NSDiffableDataSourceSnapshot<Int, News.NewsItem>()
-            snapshot.appendSections([0])
-            snapshot.appendItems(item)
-            self.dataSource?.apply(snapshot, animatingDifferences: false)
-        }
+//        viewModel.sample
+//            .withUnretained(self)
+//            .bind { (vc, item) in
+//                var snapshot = NSDiffableDataSourceSnapshot<Int, News.NewsItem>()
+//                snapshot.appendSections([0])
+//                snapshot.appendItems(item)
+//                self.dataSource?.apply(snapshot, animatingDifferences: false)
+//            }
+//
+//        loadButton
+//            .rx
+//            .tap
+//            .withUnretained(self)
+//            .bind { (vc, _) in
+//                vc.viewModel.
+//            }
     }
     
-    func configureViews() {
-        numberTextField.addTarget(self, action: #selector(numberTextFieldChanged), for: .editingChanged)
-        resetButton.addTarget(self, action: #selector(resetButtonTapped), for: .touchUpInside)
-        loadButton.addTarget(self, action: #selector(loadButtonTapped), for: .touchUpInside)
-    }
-    
-    @objc func numberTextFieldChanged() {
-        guard let text = numberTextField.text else { return }
-        viewModel.changeFormatPageNumberFormat(text: text)
-    }
-    
-    @objc func resetButtonTapped() {
-        viewModel.resetSample()
-    }
-    
-    @objc func loadButtonTapped() {
-        viewModel.loadSample()
-    }
+//    func configureViews() {
+//        numberTextField.addTarget(self, action: #selector(numberTextFieldChanged), for: .editingChanged)
+//        resetButton.addTarget(self, action: #selector(resetButtonTapped), for: .touchUpInside)
+//        loadButton.addTarget(self, action: #selector(loadButtonTapped), for: .touchUpInside)
+//    }
+//
+//    @objc func numberTextFieldChanged() {
+//        guard let text = numberTextField.text else { return }
+//        viewModel.changeFormatPageNumberFormat(text: text)
+//    }
+//
+//    @objc func resetButtonTapped() {
+//        viewModel.resetSample()
+//    }
+//
+//    @objc func loadButtonTapped() {
+//        viewModel.loadSample()
+//    }
     
 }
 
